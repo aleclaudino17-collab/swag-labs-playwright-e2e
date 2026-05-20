@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "expectedResult": "success",
+      "description": "Usuário válido — deve logar com sucesso"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expectedResult": "locked",
+      "description": "Usuário bloqueado — deve exibir mensagem de erro"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "expectedResult": "success",
+      "description": "Usuário com problemas — deve logar mas apresentar instabilidade"
+    }
+  ]
+}

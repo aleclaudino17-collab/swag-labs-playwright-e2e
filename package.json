@@ -1,0 +1,31 @@
+{
+  "name": "swag-labs-playwright-e2e",
+  "version": "1.0.0",
+  "description": "Professional E2E automation suite for Swag Labs (SauceDemo) using Playwright + TypeScript + Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "e2e",
+    "automation",
+    "swag-labs",
+    "saucedemo",
+    "page-object-model",
+    "qa",
+    "test-automation"
+  ],
+  "author": "Alexandre Claudino",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.0"
+  }
+}
