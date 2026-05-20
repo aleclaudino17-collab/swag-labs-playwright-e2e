@@ -1,4 +1,4 @@
-# 🧪 Swag Labs Playwright E2E Automation
+# Swag Labs Playwright E2E Automation
 
 [![Playwright Tests](https://github.com/aleclaudino17-collab/swag-labs-playwright-e2e/actions/workflows/playwright.yml/badge.svg)](https://github.com/aleclaudino17-collab/swag-labs-playwright-e2e/actions/workflows/playwright.yml)
 ![Playwright](https://img.shields.io/badge/Playwright-1.44-blue?logo=playwright)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📐 Arquitetura
+## Arquitetura
 
 ```
 ┌─────────────────────────────────────────┐
@@ -33,7 +33,7 @@
 
 ---
 
-## 🚀 Pré-requisitos
+## Pré-requisitos
 
 | Ferramenta | Versão |
 |------------|--------|
@@ -46,7 +46,7 @@
 
 ---
 
-## ⚡ Comandos para Rodar
+## Comandos para Rodar
 
 ```bash
 # 1. Instalar dependências
@@ -70,7 +70,7 @@ npx playwright show-report
 
 ---
 
-## 📊 Relatórios
+## Relatórios
 
 Após a execução, o relatório HTML é gerado automaticamente em `playwright-report/`:
 
@@ -82,7 +82,7 @@ Na pipeline do GitHub Actions, o relatório é salvo como **artifact** em toda e
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -97,7 +97,7 @@ Na pipeline do GitHub Actions, o relatório é salvo como **artifact** em toda e
 
 ---
 
-## 🧪 Cenários Cobertos
+## Cenários Cobertos
 
 | Cenário | Arquivo | Descrição |
 |---------|---------|-----------|
@@ -109,7 +109,7 @@ Na pipeline do GitHub Actions, o relatório é salvo como **artifact** em toda e
 
 ---
 
-## 🔧 Configurações do Playwright
+## Configurações do Playwright
 
 | Config | Valor | Motivo |
 |--------|-------|--------|
@@ -122,13 +122,14 @@ Na pipeline do GitHub Actions, o relatório é salvo como **artifact** em toda e
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Alexandre Claudino** — QA Engineer & Test Automation Architect  
-🔗 [LinkedIn](https://www.linkedin.com/in/alexandreclaudino) | 💻 [GitHub](https://github.com/aleclaudino17-collab)
+ [LinkedIn](https://www.linkedin.com/in/alexandreclaudino) 
+ [GitHub](https://github.com/aleclaudino17-collab)
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT.
